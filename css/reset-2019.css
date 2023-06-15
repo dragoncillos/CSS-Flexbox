@@ -5,6 +5,16 @@ Author:			Andy Bell
 Date:				1st of October 2019
 */
 
+/* Begin dragoncillos */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #e5e5e5;
+    background-color: #434753;
+}
+/* End dragoncillos */
+
 /* Box sizing rules */
 *,
 *::before,

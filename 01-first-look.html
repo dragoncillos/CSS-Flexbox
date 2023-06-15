@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Laracasts: CSS Flexbox Simplified</title>
+	<link rel="stylesheet" href="css/reset-2019.css">
+	<style>
+		/* Navigation bar */
+		ul {
+			padding: 1.8rem, 1.2rem;
+
+			display: flex;
+		}
+		li {
+			padding: 0 1.2rem;
+		}
+		a {
+			text-decoration: none;
+			color: white;
+		}
+
+		/* Testimonial section */
+		main {
+			margin: 2rem 3.5rem;
+		}
+		section {
+			max-width: 60rem;
+			margin: 2rem 0;
+
+			display: flex;
+			gap: 2rem;
+		}
+		.testimonial {
+			background: #32343c;
+			padding: 1rem 1.5rem;
+			border-radius: 0.25rem;
+		}
+		path {
+			color: orange;
+		}
+	</style>
+</head>
+
+<body>
+	<nav>
+		<ul role="list">
+			<li><a href="" class="kk">Home</a></li>
+			<li><a href="">Events</a></li>
+			<li><a href="">Protocols</a></li>
+			<li><a href="">Members</a></li>
+			<li><a href="">About Us</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<h1>Testimonial seccion in a sigle row</h1>
+		<p>Notice that all blocks are of the same height, but different widths based on the length of text within</p>
+		<section>
+			<div class="testimonial">
+				<img src="img/quote.svg" alt="" width="36">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci accusamus quis, eveniet qui mollitia saepe voluptates corrupti! Aut repudiandae dolorem cupiditate ab, sed sequi officiis deleniti numquam rem placeat commodi!</p>
+			</div>
+			<div class="testimonial">
+				<img src="img/quote.svg" alt="" width="36">
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, hic voluptas sed molestias deserunt, officia quae quam asperiores nesciunt obcaecati facilis totam laborum?</p>
+			</div>
+			<div class="testimonial">
+				<img src="img/quote.svg" alt="" width="36">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim facilis officiis cupiditate aliquid autem tempora officia laborum molestiae minima eveniet quasi nesciunt nobis aliquam, corrupti excepturi earum reprehenderit aspernatur assumenda error. Dicta, sapiente!</p>
+			</div>
+		</section>
+	</main>
+</body>
+
+</html>
