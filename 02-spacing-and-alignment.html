@@ -13,13 +13,12 @@
 
 		/* Navigation bar */
 		ul {
-			padding: 1.8rem 1.2rem;
-			min-height: 3rem;
+			padding: 1.8rem 0;
 
 			display: flex;
-		}
-		li {
-			padding: 0 1.2rem;
+			gap: 2.4rem;
+			justify-content: center;
+			align-items: center;
 		}
 		a {
 			text-decoration: none;
@@ -38,16 +37,19 @@
 			background: #32343c;
 			padding: 1rem 1.5rem;
 			border-radius: 0.25rem;
+
+			width: 14rem;
 		}
 	</style>
 </head>
 
 <body>
 	<header>
-		<h1>01 First look at CSS Flexbox</h1>
+		<h1>02 Spacing and alignment</h1>
 		<h2>Navigation bar</h2>
 		<nav>
 			<ul role="list">
+				<li><img src="img/figma.svg" alt="Figma" style="height: 35px;"></li>
 				<li><a href="">Home</a></li>
 				<li><a href="">Events</a></li>
 				<li><a href="">Protocols</a></li>
