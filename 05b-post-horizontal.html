@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Laracasts: CSS Flexbox Simplified</title>
+	<link rel="stylesheet" href="css/reset-2019.css">
+	<style>
+		:root {
+			--main-bg-color: #32343c;
+		}
+		body {
+			padding: 2rem;
+		}
+		.movie {
+			min-width: 48rem;
+			margin: 2rem auto 0;
+			background-color: var(--main-bg-color);
+			padding: 1.5rem;
+
+			display: flex;
+			gap: 1.5rem;
+			align-items: center;
+		}
+
+		.movie > div {
+			flex-grow: 1;
+		}
+
+		.movie > a {
+			flex-shrink: 0;
+		}
+
+		img {
+			max-height: 100px;
+		}
+
+		a {
+    background-color: orange;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    text-align: center;
+		text-decoration: none;
+		color: var(--main-bg-color);
+}
+
+	</style>
+</head>
+<body>
+<section class="movie">
+	<img src="https://www.euromabnet.com/img/events/4th-workshop-ghent.png" alt="Movie 1">
+	<div>
+		<h1>Movie of the year 1</h1>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptates...</p>
+	</div>
+	<a href="#">Book Now</a>
+</section>
+<section class="movie">
+	<img src="https://www.euromabnet.com/img/events/11th-meeting-online.jpg" alt="Movie 2">
+	<div>
+		<h1>Movie of the year 2</h1>
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas fuga culpa porro blanditiis nesciunt officiis.</p>
+	</div>
+	<a href="#">Book Now</a>
+</section>
+</body>
+</html>

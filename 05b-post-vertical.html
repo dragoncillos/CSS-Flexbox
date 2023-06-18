@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Laracasts: CSS Flexbox Simplified</title>
+	<link rel="stylesheet" href="css/reset-2019.css">
+	<style>
+		:root {
+			--main-bg-color: #32343c;
+		}
+		body {
+			padding: 2rem;
+		}
+		.post {
+			width: 18rem;
+			height: 36rem;
+			background-color: var(--main-bg-color);
+			padding: 1.5rem;
+			border-radius: 0.25rem;
+
+			display: flex;
+			flex-direction: column;
+			gap: 0.8rem;
+		}
+
+		p {
+			flex-grow: 1;
+		}
+
+		a {
+    background-color: orange;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    text-align: center;
+		text-decoration: none;
+		color: var(--main-bg-color);
+}
+
+	</style>
+</head>
+<body>
+<div class="post">
+	<img src="https://www.euromabnet.com/img/events/12th-meeting-hamburg.png" alt="Blog post">
+	<h1>Lorem ipsum dolor sit amet.</h1>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptates...</p>
+	<a href="#">Read Full &rarr;</a>
+</div>
+</body>
+</html>

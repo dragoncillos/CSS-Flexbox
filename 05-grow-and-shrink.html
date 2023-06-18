@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Laracasts: CSS Flexbox Simplified</title>
+	<link rel="stylesheet" href="css/reset-2019.css">
+	<style>
+		body {
+			display: flex;
+		}
+		nav,
+		section {
+			min-height: 100vh;
+			padding: 2rem;
+			background-color: #1f2937;
+		}
+		nav {
+			width: 16rem;
+			border-right: 1px solid #374151;
+		}
+		section {
+			/* flex grow is not applied to the container. It is applied to one or more flex items. */
+			flex-grow: 1;
+		}
+		ul {
+			line-height: 3;
+		}
+	</style>
+</head>
+<body>
+<nav>
+	<ul role="list">
+		<li>Dashboard</li>
+		<li>Analytics</li>
+		<li>Settings</li>
+	</ul>
+</nav>
+<section>
+	<h1>Dasboard</h1>
+	<p><strong>Flex container:</strong> so far we've seen properties like justify content, align items, align content, flex direction and all these properties were applied to the flex container.</p>
+	<p><strong>Flex items:</strong> but flex grow is not applied to the container. It is applied to one or more flex items.</p>
+</section>
+</body>
+</html>
