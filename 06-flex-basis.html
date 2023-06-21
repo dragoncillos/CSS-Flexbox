@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Laracasts: CSS Flexbox Simplified</title>
+	<link rel="stylesheet" href="css/reset-2019.css">
+	<style>
+		section {
+			height: 12rem;
+			margin: 2rem auto;
+			max-width: 56rem;
+
+			display: flex;
+			gap: 1.5rem;
+		}
+		.plan {
+			padding: 1rem;
+			border-radius: 0.25rem;
+			background-color: #32343c;
+
+			/* width: 33.33%; */
+			flex-basis: 0%;
+			flex-grow: 1;
+		}
+
+		.plan-highligh {
+			background-color: #9b164b;
+		}
+
+		p {
+			font-size: 2rem;
+			font-weight: bold;
+		}
+	</style>
+</head>
+
+<body>
+	<section class="pricing">
+		<div class="plan">
+			<h2>Standard</h2>
+			<span>Monthly Plan</span>
+			<p>25€</p>
+		</div>
+		<div class="plan plan-highligh">
+			<h2>Most Popular</h2>
+			<span>Monthly Plan</span>
+			<p>40€</p>
+		</div>
+		<div class="plan">
+			<h2>Premium</h2>
+			<span>Monthly Plan</span>
+			<p>55€</p>
+		</div>
+	</section>
+</body>
+
+</html>
