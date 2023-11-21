@@ -7,5 +7,5 @@
 - [01 First Look at CSS Flexbox](https://dragoncillos.github.io/CSS-Flexbox-Laracasts-Shruti-Balasa/01-first-look.html)
   - Navigation bar
   - Testimonial section in a single row
-- [02 Spacing and Alignment](https://dragoncillos.github.io/CSS-Flexbox-Laracasts-Shruti-Balasa/02-spacing-and-alignment.html)]
+- [02 Spacing and Alignment](https://dragoncillos.github.io/CSS-Flexbox-Laracasts-Shruti-Balasa/02-spacing-and-alignment.html)
   - Navigation bar
