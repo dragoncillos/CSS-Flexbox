@@ -10,7 +10,8 @@
 		body {
 			padding: 2rem;
 		}
-		h1 {
+		h1,
+		p {
 			margin: 1rem auto;
 			max-width: 52rem;
 		}
@@ -19,11 +20,11 @@
 			display: initial;
 		}
 		section {
-			background-color: #32343c;
 			max-width: 52rem;
-			margin: auto;
-			padding: 2rem;
 			min-height: 30rem;
+			padding: 2rem;
+			margin: auto;
+			background-color: #32343c;
 
 			display: flex;
 			justify-content: center;
@@ -37,8 +38,10 @@
 
 <body>
 	<h1>03 Wrap items into multiple rows</h1>
+	<p>The section is responsive by just adding the rule flex-wrap: wrap</p>
+	<p>You will need to use this property <strong>align-content</strong> only if you have flex items wrapped into multiple rows and you want to control the spacing between those rows. If there's only one row of items or if the height of the container is not bigger than needed, this property has no effect.</p>
 	<section>
-			<p><span>300+</span> Customers love using<br> our produc every day</p>
+			<p><span>300+</span> Customers love using<br> our product every day</p>
 			<img src="https://www.euromabnet.com/img/meeting/logo-university-hamburg3.png" alt="Logo 1">
 			<img src="https://www.euromabnet.com/img/meeting/logo-university-hamburg2.png" alt="Logo 2">
 			<img src="https://www.euromabnet.com/img/meeting/logo-sfb-1328.png" alt="Logo 3">
