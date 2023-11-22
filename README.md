@@ -13,4 +13,6 @@
   - Testimonial section in a single row: all blocks are of the **same height** and **same widths**
   - [02b Center div on page](https://dragoncillos.github.io/CSS-Flexbox-Laracasts-Shruti-Balasa/02b-center-div.html): *justify-content: center, align-items: center*
 - [03 Wrap items into multiple rows](https://dragoncillos.github.io/CSS-Flexbox-Laracasts-Shruti-Balasa/03-wrap-items-multiple-rows.html): *flex-wrap: wrap, align-content*
-- [04 Cross-axis alignment and flow direction](https://dragoncillos.github.io/CSS-Flexbox-Laracasts-Shruti-Balasa/04-cross-axis-alignment-and-flow-direction.html)
+- [04 Cross-axis alignment and flow direction](https://dragoncillos.github.io/CSS-Flexbox-Laracasts-Shruti-Balasa/04-cross-axis-alignment-and-flow-direction.html): *main axis, cross axis*
+  - [04b Login screen](https://dragoncillos.github.io/CSS-Flexbox-Laracasts-Shruti-Balasa/04b-login-screen.html)
+  - [04c Testimonial](https://dragoncillos.github.io/CSS-Flexbox-Laracasts-Shruti-Balasa/04c-testimonial.html)
