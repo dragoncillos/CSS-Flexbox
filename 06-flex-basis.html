@@ -7,6 +7,22 @@
 	<title>Laracasts: CSS Flexbox Simplified</title>
 	<link rel="stylesheet" href="css/reset-2019.css">
 	<style>
+		body {
+			padding: 2rem;
+		}
+		header {
+			margin: 2rem auto;
+			max-width: 56rem;
+
+			& h1 {
+				font-size: 1.6rem;
+				margin-block-end: 1.5rem;;
+			}
+
+			& p {
+				margin-block-end: 1rem;
+			}
+		}
 		section {
 			height: 12rem;
 			margin: 2rem auto;
@@ -21,22 +37,33 @@
 			background-color: #32343c;
 
 			/* width: 33.33%; */
-			flex-basis: 0%;
-			flex-grow: 1;
-		}
+			/* flex-basis: 33.33%; */
+			/* 	flex-basis: 0%;
+					flex-grow: 1;
+					flex: flex-grow flex-shrink flex basis*/
+			flex: 1 1 0%;
 
-		.plan-highligh {
-			background-color: #9b164b;
-		}
+			&.plan-highligh {
+				background-color: #9b164b;
+			}
 
-		p {
-			font-size: 2rem;
-			font-weight: bold;
-		}
+			& p {
+				font-size: 2rem;
+				font-weight: bold;
+			}
+	}
+
 	</style>
 </head>
 
 <body>
+	<header>
+		<h1>The flex property is a shorthand for the flex-grow, flex-shrink, and flex-basis properties</h1>
+		<p>1. We've set display flex and a gap of 1.5 rem to the parent, and to each of the divs, we've set a width of 33.33%.</p>
+		<p>2. Now instead of using the width property here, we can specify the same using another property, flex-basis. flex-basis: 33.33%, we can set the initial width of an item </p>
+		<p>3. When we want all equal sized items, we can set the initial width to 0, that is flex-basis to 0% and then set flex-grow for each of the items to 1. Now why is this better?Because now we can add another item, say copy this and paste it, and still all four blocks take up the same space. If flex-basis was 33.33%, we had to change it to 25%</p>
+		<p>Flex shorthand: flex: flex-grow flex-shrink flex basis. This property flex can take in a single value also, or double values or all three values.</p>
+	</header>
 	<section class="pricing">
 		<div class="plan">
 			<h2>Standard</h2>
