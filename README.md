@@ -1,4 +1,4 @@
-# CSS Flexbox
+# CSS Flexbox simplified
 
 - [CSS Flexbox simplified course by Shruti Balasa](https://laracasts.com/series/css-flexbox-simplified/)
 - [Original source code](https://github.com/laracasts/css-flexbox-simplified)
