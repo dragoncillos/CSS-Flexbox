@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Laracasts: CSS Flexbox Simplified</title>
+	<link rel="stylesheet" href="css/reset-2019.css">
+	<style>
+		header {
+			padding: 1rem 1.5rem;
+			background: #32343c;
+
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			flex-wrap: wrap;
+			gap: 0.8rem;
+		}
+
+		input {
+			padding: 0.2rem 0.6rem;
+			border: none;
+			border-radius: 14px;
+			color: whitesmoke;
+			background-color: hsl(225deg 10% 40%);
+
+			/* flex: 1; */
+			flex: 100%; /* == flex-basis */
+		}
+
+		a {
+			text-decoration: none;
+			color: white;
+		}
+
+		@media screen and (width > 630px) {
+			header {
+				flex-wrap: nowrap;
+			}
+
+			input {
+				flex: auto;
+			}
+
+			a {
+				order: 1;
+			}
+		}
+
+	</style>
+</head>
+
+<body>
+	<header>
+		<img src="img/figma.svg" alt="logo Figma" width="40">
+		<a href="#">Create account</a>
+		<input type="text" placeholder="Search..." class="search">
+	</header>
+</body>
+
+</html>
