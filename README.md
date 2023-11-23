@@ -19,4 +19,4 @@
 - [05 Grow and Shrink Flex Items](https://dragoncillos.github.io/CSS-Flexbox/05-grow-and-shrink.html): common layout, sidebar and main content, *flex-grow: 1*
   - [05b Post vertical](https://dragoncillos.github.io/CSS-Flexbox/05b-post-vertical.html): *flex-grow: 1*
   - [05c Post horizontal](https://dragoncillos.github.io/CSS-Flexboxa/05c-post-horizontal.html): *flex-grow: 1 and flex-shrink: 0*
-- [06 Flex basis vs width](https://dragoncillos.github.io/CSS-Flexbox/06-flex-basis.html): *width: 33.33% vs flex-basis: 33.33% vs flex-basis: 0% and flex-grow: 1*. Flex shorthand: *flex: &lt;flex-grow&gt; &lt;flex-shrink&gt; &lt;flex basis&gt;*.
+- [06 Flex basis vs width](https://dragoncillos.github.io/CSS-Flexbox/06-flex-shorthand.html): *width: 33.33% vs flex-basis: 33.33% vs flex-basis: 0% and flex-grow: 1*. Flex shorthand: *flex: &lt;flex-grow&gt; &lt;flex-shrink&gt; &lt;flex basis&gt;*.
