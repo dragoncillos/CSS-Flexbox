@@ -11,7 +11,7 @@
 - [02 Spacing and Alignment](https://dragoncillos.github.io/CSS-Flexbox/02-spacing-and-alignment.html)
   - Navigation bar with logo: display: *flex, gap, justify-content: center, align-items: center*
   - Testimonial section in a single row: all blocks are of the **same height** and **same widths**
-  - [02b Center div on page](https://dragoncillos.github.io/CSS-Flexbox/02b-center-div.html): *justify-content: center, align-items: center*
+  - [02b Center div on page](https://dragoncillos.github.io/CSS-Flexbox/02b-center-div.html): Center div with *justify-content: center, align-items: center*
 - [03 Wrap items into multiple rows](https://dragoncillos.github.io/CSS-Flexbox/03-wrap-items-multiple-rows.html): *flex-wrap: wrap, align-content*
 - [04 Cross-axis alignment and flow direction](https://dragoncillos.github.io/CSS-Flexbox/04-cross-axis-alignment-and-flow-direction.html): *main axis, cross axis*
   - [04b Login screen](https://dragoncillos.github.io/CSS-Flexbox/04b-login-screen.html): flex-direction-column
@@ -24,4 +24,5 @@
 - [08 Aligning individual items](https://dragoncillos.github.io/CSS-Flexbox/08-align-individual-items.html): Post horizontal variant: *align self*
   - [08b Login screen](https://dragoncillos.github.io/CSS-Flexbox/08b-login-screen.html): flex-direction-column, *align self*
 - [09 Flexbox and Auto Margins](https://dragoncillos.github.io/CSS-Flexbox/09-auto-margins.html): *margin-inline-start: auto;*, margin-inline-end: auto;
-  - [09b Footer problem](https://dragoncillos.github.io/CSS-Flexbox/09-footer.html): flex-direction: column, *margin-block-start: auto*
+  - [09b Footer problem](https://dragoncillos.github.io/CSS-Flexbox/09b-footer.html): flex-direction: column, *margin-block-start: auto*
+  - [09c Center div](https://dragoncillos.github.io/CSS-Flexbox/09c-center-div.html): Center div with *margin: auto*
