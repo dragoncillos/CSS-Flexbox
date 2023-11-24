@@ -14,11 +14,12 @@
   - [02b Center div on page](https://dragoncillos.github.io/CSS-Flexbox/02b-center-div.html): *justify-content: center, align-items: center*
 - [03 Wrap items into multiple rows](https://dragoncillos.github.io/CSS-Flexbox/03-wrap-items-multiple-rows.html): *flex-wrap: wrap, align-content*
 - [04 Cross-axis alignment and flow direction](https://dragoncillos.github.io/CSS-Flexbox/04-cross-axis-alignment-and-flow-direction.html): *main axis, cross axis*
-  - [04b Login screen](https://dragoncillos.github.io/CSS-Flexbox/04b-login-screen.html)
+  - [04b Login screen](https://dragoncillos.github.io/CSS-Flexbox/04b-login-screen.html): flex-direction-column
   - [04c Testimonial](https://dragoncillos.github.io/CSS-Flexbox/04c-testimonial.html)
 - [05 Grow and Shrink Flex Items](https://dragoncillos.github.io/CSS-Flexbox/05-grow-and-shrink.html): common layout, sidebar and main content, *flex-grow: 1*
   - [05b Post vertical](https://dragoncillos.github.io/CSS-Flexbox/05b-post-vertical.html): *flex-grow: 1*
   - [05c Post horizontal](https://dragoncillos.github.io/CSS-Flexbox/05c-post-horizontal.html): *flex-grow: 1 and flex-shrink: 0*
 - [06 Flex basis vs width](https://dragoncillos.github.io/CSS-Flexbox/06-flex-shorthand.html): *width: 33.33% vs flex-basis: 33.33% vs flex-basis: 0% and flex-grow: 1*. Flex shorthand: *flex: &lt;flex-grow&gt; &lt;flex-shrink&gt; &lt;flex basis&gt;*
 - [07 The order property](https://dragoncillos.github.io/CSS-Flexbox/07-order.html): Switch mobile to desktop to see it
-- [08 Aligning individual items](https://dragoncillos.github.io/CSS-Flexbox/08-align-individual-items.html)
+- [08 Aligning individual items](https://dragoncillos.github.io/CSS-Flexbox/08-align-individual-items.html) Post horizontal variant: *align self*
+  - [08b Login screen](https://dragoncillos.github.io/CSS-Flexbox/08b-login-screen.html): flex-direction-column
