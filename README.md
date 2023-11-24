@@ -21,5 +21,7 @@
   - [05c Post horizontal](https://dragoncillos.github.io/CSS-Flexbox/05c-post-horizontal.html): *flex-grow: 1 and flex-shrink: 0*
 - [06 Flex basis vs width](https://dragoncillos.github.io/CSS-Flexbox/06-flex-shorthand.html): *width: 33.33% vs flex-basis: 33.33% vs flex-basis: 0% and flex-grow: 1*. Flex shorthand: *flex: &lt;flex-grow&gt; &lt;flex-shrink&gt; &lt;flex basis&gt;*
 - [07 The order property](https://dragoncillos.github.io/CSS-Flexbox/07-order.html): Switch mobile to desktop to see it
-- [08 Aligning individual items](https://dragoncillos.github.io/CSS-Flexbox/08-align-individual-items.html) Post horizontal variant: *align self*
+- [08 Aligning individual items](https://dragoncillos.github.io/CSS-Flexbox/08-align-individual-items.html): Post horizontal variant: *align self*
   - [08b Login screen](https://dragoncillos.github.io/CSS-Flexbox/08b-login-screen.html): flex-direction-column, *align self*
+- [09 Flexbox and Auto Margins](https://dragoncillos.github.io/CSS-Flexbox/09-auto-margins.html): *margin-inline-start: auto;*, margin-inline-end: auto;
+  - [09b Flexbox and Auto Margins](https://dragoncillos.github.io/CSS-Flexbox/09-footer.html)
