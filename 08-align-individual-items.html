@@ -15,6 +15,11 @@
 			padding: 2rem;
 		}
 
+		p {
+			max-width: 48rem;
+			margin: 1rem auto;
+		}
+
 		.movie {
 			max-width: 48rem;
 			margin: 2rem auto 0;
@@ -32,6 +37,7 @@
 
 		.movie>a {
 			flex-shrink: 0;
+			align-self: flex-end;
 		}
 
 		img {
@@ -50,6 +56,7 @@
 </head>
 
 <body>
+	<p>We can change the alignment of individual items along the cross axis using the property align-self.</p>
 	<section class="movie">
 		<img src="https://www.euromabnet.com/img/events/4th-workshop-ghent.png" alt="Movie 1">
 		<div>

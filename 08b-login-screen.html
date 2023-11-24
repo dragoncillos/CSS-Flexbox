@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Laracasts: CSS Flexbox Simplified</title>
+	<link rel="stylesheet" href="css/reset-2019.css">
+
+	<style>
+		body {
+			padding: 2rem;
+		}
+
+		header {
+			margin: 1rem auto;
+			width: 18rem;
+
+			& a {
+				color: white;
+			}
+		}
+
+		section {
+			width: 18rem;
+			height: 20rem;
+			padding: 2rem;
+			border-radius: 0.75rem;
+			margin: auto;
+			background-color: #32343c;
+
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			gap: 1rem;
+		}
+
+		img {
+			height: 2rem;
+			margin-block-end: 3rem;
+
+			align-self: center;
+		}
+
+		a {
+			display: block;
+		}
+
+		.login .btn {
+			text-decoration: none;
+			text-align: center;
+			padding: 0.75rem 1.5rem;
+			font-size: 0.9rem;
+			border-radius: 0.5rem;
+			border: solid 1px #38bdf8;
+		}
+
+		.login .btn-full {
+			background-color: #38bdf8;
+			color: black;
+		}
+
+		.login .btn-outline {
+			color: white;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>08b Aligning individual items</h1>
+		<a href="img/main-axis.png">View differences between main axis, cross axis, justify-content, align-content if
+			flex-direction is row or column</a>
+	</header>
+	<section class="login">
+		<img src="img/logo-ipsum.png" alt="Logo Ipsum">
+		<a href="#" class="btn btn-full">Sign In</a>
+		<a href="#" class="btn btn-outline">Create Account</a>
+	</section>
+</body>
+
+</html>
