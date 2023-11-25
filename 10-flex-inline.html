@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Laracasts: CSS Flexbox Simplified</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+		integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="css/base.css" />
+	<style>
+		section {
+			padding: 2rem;
+			max-width: 48rem;
+
+			/* display: flex;
+			flex-wrap: wrap;
+			margin: auto; */
+		}
+		label {
+			display: inline-flex;
+			align-items: center;
+			gap: 1rem;
+		}
+		input[type="checkbox"] {
+			display: none;
+		}
+		input[type="checkbox"]:checked ~ span i {
+			color: #0d9488;
+		}
+
+		section > p {
+			margin-bottom: 1rem;
+		}
+	</style>
+</head>
+
+<body>
+	<section class="tags">
+		<p>The previous solution of adding Display Flex to the section element works perfectly.</p>
+		<p>So, Display Inline Flex can be used instead of Display Flex when you want this container to act as an inline element instead of block level element.</p>
+
+		<label for="laravel">
+			<input type="checkbox" name="laravel" id="laravel" checked />
+			<p>Laravel</p>
+			<span><i class="fa-solid fa-circle-check"></i></span>
+		</label>
+
+		<label for="tailwindcss">
+			<input type="checkbox" name="tailwindcss" id="tailwindcss" />
+			<p>Tailwind CSS</p>
+			<span><i class="fa-solid fa-circle-check"></i></span>
+		</label>
+
+		<label for="webdevelopment">
+			<input type="checkbox" name="webdevelopment" id="webdevelopment" checked />
+			<p>Web Development</p>
+			<span><i class="fa-solid fa-circle-check"></i></span>
+		</label>
+
+		<label for="vuejs">
+			<input type="checkbox" name="vuejs" id="vuejs" />
+			<p>Vue JS</p>
+			<span><i class="fa-solid fa-circle-check"></i></span>
+		</label>
+
+		<label for="serverless">
+			<input type="checkbox" name="serverless" id="serverless" />
+			<p>Serverless</p>
+			<span><i class="fa-solid fa-circle-check"></i></span>
+		</label>
+
+		<label for="aws">
+			<input type="checkbox" name="aws" id="aws" />
+			<p>AWS</p>
+			<span><i class="fa-solid fa-circle-check"></i></span>
+		</label>
+	</section>
+</body>
+
+</html>
