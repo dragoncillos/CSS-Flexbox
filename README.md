@@ -26,3 +26,4 @@
 - [09 Flexbox and Auto Margins](https://dragoncillos.github.io/CSS-Flexbox/09-auto-margins.html): *margin-inline-start: auto;*, margin-inline-end: auto;
   - [09b Footer problem](https://dragoncillos.github.io/CSS-Flexbox/09b-footer.html): flex-direction: column, *margin-block-start: auto*
   - [09c Center div](https://dragoncillos.github.io/CSS-Flexbox/09c-center-div.html): Second method center div with *margin: auto*
+- [10 Make a Flex Container Inline](https://dragoncillos.github.io/CSS-Flexbox/10-flex-inline.html): *display: inline-flex*
