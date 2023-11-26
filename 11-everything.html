@@ -9,13 +9,97 @@
 	<link rel="stylesheet" href="css/base.css" />
 	<link rel="stylesheet" href="css/styles.css" />
 	<style>
+		/* Mobile first */
+		.container {
+			display: flex;
+			flex-direction: column;
+			gap: 2rem;
+		}
+
+		main {
+			& .title-div {
+				display: flex;
+				align-items: center;
+				gap: 1rem;
+			}
+
+			& .activity {
+				display: flex;
+				flex-direction: column;
+				gap: 0.6rem;
+
+				& li {
+					display: flex;
+					justify-content: space-between;
+				}
+			}
+		}
+
+		aside {
+			& nav ul {
+				display: flex;
+				justify-content: space-between;
+
+				& li {
+					flex: 1;
+				}
+			}
+
+			& .sidebar-card {
+
+				& header {
+					display: flex;
+					gap: 1rem;
+				}
+
+				& img {
+					margin-inline-start: auto;
+				}
+
+				& footer {
+					display: flex;
+					gap: 1rem;
+
+					& .status {
+						margin-inline-start: auto;
+					}
+				}
+			}
+		}
+
+		/* Desktop */
+		@media screen and (width > 900px) {
+
+			.container {
+				flex-direction: row;
+				align-items: flex-start;
+			}
+
+			main {
+				flex: 3;
+
+				& .activity {
+					flex-direction: row;
+					flex-wrap: wrap;
+
+					& li {
+						flex-direction: column-reverse;
+						flex-basis: 11rem;
+					}
+				}
+			}
+
+			aside {
+				flex: 2;
+			}
+		}
 
 	</style>
 </head>
 
 <body>
 	<div class="container">
-		<section class="main">
+		<main class="main">
 			<section class="features title-div">
 				<img src="images/logo-1.png" alt="Laravel logo" />
 				<h1>Senior Laravel Developer</h1>
@@ -53,8 +137,8 @@
 				</ul>
 			</section>
 			<a href="#" class="btn-link">Apply for Job</a>
-		</section>
-		<section class="sidebar">
+		</main>
+		<aside class="sidebar">
 			<nav>
 				<ul>
 					<li>Related</li>
@@ -70,7 +154,7 @@
 								<img src="images/wordpress-logo.png" alt="WordPress logo" />
 							</a>
 							<a href="#">
-								<h3>WordPress Developer</h3>
+								<h3>Custom WordPress Developer</h3>
 							</a>
 							<img src="images/star.png" alt="star" />
 						</header>
@@ -104,7 +188,7 @@
 					</li>
 				</ul>
 			</section>
-		</section>
+		</aside>
 	</div>
 </body>
 
