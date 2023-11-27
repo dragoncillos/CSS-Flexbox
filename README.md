@@ -29,5 +29,6 @@
 - [10 Make a flex fontainer Inline](https://dragoncillos.github.io/CSS-Flexbox/10-flex-inline.html): *display: inline-flex*
 - [11 Test everything you've learned about Flexbox](https://dragoncillos.github.io/CSS-Flexbox/11-everything.html)
 - [12 Flexbox vs Grid](https://dragoncillos.github.io/CSS-Flexbox/06b-grid.html): Prices. View 06 flex basis and compare
-  - Flexbox is for one dimension layouts / Grid is for two dimension layouts
-  - Flexbox is for components / Grid is for layouts
+  1. Flexbox is for one dimension layouts / Grid is for two dimension layouts
+  2. Flexbox is for components / Grid is for layouts (or complex components)
+  3. Flexbox for the content-first / Grid for the layout-first
