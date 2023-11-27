@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Laracasts: CSS Flexbox Simplified</title>
+	<link rel="stylesheet" href="css/reset-2019.css">
+	<style>
+		body {
+			padding: 2rem;
+		}
+
+		header {
+			margin: 2rem auto;
+			max-width: 56rem;
+
+			& h1 {
+				font-size: 1.6rem;
+				margin-block-end: 1.5rem;
+				;
+			}
+
+			& p {
+				margin-block-end: 1rem;
+			}
+		}
+
+		section {
+			height: 6rem;
+			margin: 2rem auto;
+			max-width: 56rem;
+
+			display: grid;
+			gap: 1rem;
+
+			@media screen and (width > 767px) {
+				grid-template-columns: repeat(3, 1fr);
+			}
+		}
+
+		.plan {
+			padding: 1rem;
+			border-radius: 0.25rem;
+			background-color: #32343c;
+
+			display: flex;
+			justify-content: space-between;
+
+			&.plan-highligh {
+				background-color: #9b164b;
+			}
+
+			& p {
+				font-size: 2rem;
+				font-weight: bold;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>Flexbox vs Grid: Which to Choose? compare with 06-flex-shorthand.html</h1>
+		<p>With Flexbox, it took more effort or more lines of code as compared to grid to get the same output</p>
+	</header>
+	<section class="pricing">
+		<div class="plan">
+			<div>
+				<h2>Standard</h2>
+				<span>Monthly Plan</span>
+			</div>
+			<p>25€</p>
+		</div>
+		<div class="plan plan-highligh">
+			<div>
+				<h2>Most Popular</h2>
+				<span>Monthly Plan</span>
+			</div>
+			<p>40€</p>
+		</div>
+		<div class="plan">
+			<div>
+				<h2>Premium</h2>
+				<span>Monthly Plan</span>
+			</div>
+			<p>55€</p>
+		</div>
+	</section>
+</body>
+
+</html>
