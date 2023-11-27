@@ -13,7 +13,7 @@
   - Testimonial section in a single row: all blocks are of the **same height** and **same widths**
   - [02b Center div on page](https://dragoncillos.github.io/CSS-Flexbox/02b-center-div.html): Fisrt method center div with *justify-content: center, align-items: center*
 - [03 Wrap items into multiple rows](https://dragoncillos.github.io/CSS-Flexbox/03-wrap-items-multiple-rows.html): *flex-wrap: wrap, align-content*
-- [04 Cross-axis alignment and flow direction](https://dragoncillos.github.io/CSS-Flexbox/04-cross-axis-alignment-and-flow-direction.html): *main axis, cross axis*
+- [04 Cross-axis alignment and flow direction](https://dragoncillos.github.io/CSS-Flexbox/04-cross-axis-alignment-and-flow-direction.html): Prices: *main axis, cross axis*
   - [04b Login screen](https://dragoncillos.github.io/CSS-Flexbox/04b-login-screen.html): flex-direction-column
   - [04c Testimonial](https://dragoncillos.github.io/CSS-Flexbox/04c-testimonial.html)
 - [05 Grow and shrink flex items](https://dragoncillos.github.io/CSS-Flexbox/05-grow-and-shrink.html): common layout, sidebar and main content, *flex-grow: 1*
@@ -28,6 +28,6 @@
   - [09c Center div](https://dragoncillos.github.io/CSS-Flexbox/09c-center-div.html): Second method center div with *margin: auto*
 - [10 Make a flex fontainer Inline](https://dragoncillos.github.io/CSS-Flexbox/10-flex-inline.html): *display: inline-flex*
 - [11 Test everything you've learned about Flexbox](https://dragoncillos.github.io/CSS-Flexbox/11-everything.html)
-- [12 Flexbox vs Grid](https://dragoncillos.github.io/CSS-Flexbox/06b-grid.html): view 06 flex basis and compare
+- [12 Flexbox vs Grid](https://dragoncillos.github.io/CSS-Flexbox/06b-grid.html): Prices. View 06 flex basis and compare
   - Flexbox is for one dimension layouts / Grid is for two dimension layouts
   - Flexbox is for components / Grid is for layouts
