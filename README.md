@@ -28,3 +28,4 @@
   - [09c Center div](https://dragoncillos.github.io/CSS-Flexbox/09c-center-div.html): Second method center div with *margin: auto*
 - [10 Make a flex fontainer Inline](https://dragoncillos.github.io/CSS-Flexbox/10-flex-inline.html): *display: inline-flex*
 - [11 Test everything you've learned about Flexbox](https://dragoncillos.github.io/CSS-Flexbox/11-everything.html)
+- [12 Flexbox vs Grid](https://dragoncillos.github.io/CSS-Flexbox/06b-grid.html): view 06 flex basis and compare
